@@ -8,119 +8,103 @@
         <link href="fonts/stylesheet.css" rel="stylesheet" />
         <link href="etapa_desplegada_con_collages/style.css" rel="stylesheet" />
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-         <link rel="stylesheet" href="css/pushy.css">
-         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+        <link rel="stylesheet" href="css/pushy.css">
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
         <!-- Modernizr -->
         <script src="js/vendor/modernizr.custom.71422.js"></script>
         <!--script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script-->
         <!--script src="js/jquery-1.11.0.min.js"></script-->
-<script src="js/lightbox.min.js"></script>
+        <script src="js/lightbox.min.js"></script>
         <link href="css/lightbox.css" rel="stylesheet" />
-<!-- Start VideoLightBox.com HEAD section -->
-		<link rel="stylesheet" href="etapas_desp_videolb/videolightbox.css" type="text/css" />
+        <!-- Start VideoLightBox.com HEAD section -->
+        <link rel="stylesheet" href="etapas_desp_videolb/videolightbox.css" type="text/css" />
 
-			<link rel="stylesheet" type="text/css" href="etapas_desp_videolb/overlay-minimal.css"/>
-			<!--script src="etapas_desp_videolb/jquery.js" type="text/javascript"></script-->
-			<script src="etapas_desp_videolb/swfobject.js" type="text/javascript"></script>
-		<!-- End VideoLightBox.com HEAD section --></head>
+        <link rel="stylesheet" type="text/css" href="etapas_desp_videolb/overlay-minimal.css"/>
+        <!--script src="etapas_desp_videolb/jquery.js" type="text/javascript"></script-->
+        <script src="etapas_desp_videolb/swfobject.js" type="text/javascript"></script>
+        <!-- End VideoLightBox.com HEAD section --></head>
 
-<body>
+    <body>
 
 
- <div id="cont-header">
+        <div id="cont-header">
 
-        <header id="encabezado">
+            <header id="encabezado">
                 <a href="index.html" ><img id="Logo" src="Header/Logo.png"/> </a>
                 <b id="TextMenu" >MENU</b>
                 <img id="MenuIcon" src="Header/menu_icon.png" />
 
-
-
-
-
-        </header>
-     </div>
+            </header>
+        </div>
 
         <div class="Intro">
-               <img id="imgEtapa" src="Etapa1/Encabezado.png">
+            <img id="imgEtapa" src="Etapa1/Encabezado.png">
         </div>
         <div id="container">
-                <div class="IntroT">
-                    <b id="fecha">FALTA FECHA</b>
-                    <b id="nombreEtapa">Volver a vivir</b>
-                </div>
+            <div class="IntroT">
+                <b id="fecha">FALTA FECHA</b>
+                <b id="nombreEtapa">Volver a vivir</b>
+            </div>
 
 
-        <div id="Titulo">
-            <b>DECLARACI&Oacute;N UNIVERSAL DE DERECHOS HUMANOS</b>
+            <div id="Titulo">
+                <b>DECLARACI&Oacute;N UNIVERSAL DE DERECHOS HUMANOS</b>
 
+            </div>
+            <div id="TextoSup">
+                <b id="Texto">En 1945, despu&eacute;s de terminada la Segunda Guerra Mundial, 51 pa&iacute;ses crearon las Naciones Unidas para mantener la paz y seguridad internacionales, fomentar relaciones de amistad entre las naciones y promover el progreso social, la mejora del nivel de vida y los derechos humanos.<br>
+                    La comunidad internacional se comprometi&oacute; a no permitir nunca m&aacute;s atrocidades como las sucedidas durante el Holocausto. Los l&iacute;deres del mundo decidieron trabajar sobre una hoja de ruta para garantizar los derechos de todas las personas en cualquier lugar y en todo momento.<br>
+                    El 10 de diciembre de 1948, la Asamblea General de Naciones Unidas, reunida en Par&iacute;s, aprob&oacute; la Declaraci&oacute;n Universal de Derechos Humanos.
+
+                    <br></b>
+
+            </div>
         </div>
-        <div id="TextoSup">
-                    <b id="Texto">En 1945, despu&eacute;s de terminada la Segunda Guerra Mundial, 51 pa&iacute;ses crearon las Naciones Unidas para mantener la paz y seguridad internacionales, fomentar entre las naciones relaciones de amistad y promover el progreso social, la mejora del nivel de vida y los derechos humanos.<br>
-La comunidad internacional se comprometi&oacute; a no permitir nunca m&aacute;s atrocidades como las sucedidas durante el Holocausto. Los l&iacute;deres del mundo decidieron trabajar sobre una hoja de ruta para garantizar los derechos de todas las personas en cualquier lugar y en todo momento.<br>
-El 10 de diciembre de 1984, la Asamblea General de Naciones Unidas, reunida en Par&iacute;s, aprob&oacute; la Declaraci&oacute;n Universal de Derechos Humanos.
 
-<br></b>
-
+        <div id= "ContainerImagenSurgimientodelNazismo">
         </div>
-       </div>
+
+        <div id="SigEtapa2">
+            <pre id="SiguienteEtapa">  <a href="etapadesp_otrosgeniocidios.html">Etapa Anterior</a>  |  <a href="index.html">Siguiente Etapa</a></pre>
+        </div>
+        <div class="footer">
+        </div>
 
 
+        <nav class="pushy pushy-left">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="actividades.html">Actividades</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="perfil.html">Mi Perfil</a></li>
+            </ul>
+
+        </nav>
+
+        <script>
+
+            $(document).ready(function(){
+
+                $("#MenuIcon").click(function(){
+
+                    $("#menu").animate({width:'toggle'},{speed:"slow"},350);
 
 
-    <div id= "ContainerImagenSurgimientodelNazismo">
-    </div>
+                });
 
-    <div id="SigEtapa2">
-        <pre id="SiguienteEtapa">  <a href="etapadesp_otrosgeniocidios.html">Etapa Anterior</a>  |  <a href="index.html">Siguiente Etapa</a></pre>
-    </div>
-    <div class="footer">
-    </div>
+                $("#img").hover(function(){
+                    $("#img").attr("src","SegundaPag/img_chica_hover.png");
 
+                },
+                                function(){
+                                    $("#img").attr("src","SegundaPag/img_chica.png");
+                                });
+            });
 
-<nav class="pushy pushy-left">
-    <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="actividades.html">Actividades</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-            <li><a href="perfil.html">Mi Perfil</a></li>
-    </ul>
-
-<nav>
-
-<script>
-
-$(document).ready(function(){
-
-$("#MenuIcon").click(function(){
-
-       $("#menu").animate({width:'toggle'},{speed:"slow"},350);
+        </script>
 
 
-  });
+        <script src="js/pushy.min.js"></script>
 
- $("#img").hover(function(){
-    $("#img").attr("src","SegundaPag/img_chica_hover.png");
-
-    },
-    function(){
-     $("#img").attr("src","SegundaPag/img_chica.png");
-  });
-});
-
-</script>
-
-
- <script src="js/pushy.min.js"></script>
-
-
-
-
-
-
-
-
-
-
-
-</body>
+    </body>
+</html>
