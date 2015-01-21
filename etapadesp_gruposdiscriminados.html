@@ -9,301 +9,268 @@
         <link href="fonts/stylesheet.css" rel="stylesheet" />
         <link href="Styles/style2.css" rel="stylesheet" />
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-         <link rel="stylesheet" href="css/pushy.css">
-         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+        <link rel="stylesheet" href="css/pushy.css">
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
         <!-- Modernizr -->
         <script src="js/vendor/modernizr.custom.71422.js"></script>
         <!--script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script-->
         <!--script src="js/jquery-1.11.0.min.js"></script-->
-<script src="js/lightbox.min.js"></script>
+        <script src="js/lightbox.min.js"></script>
         <link href="css/lightbox.css" rel="stylesheet" />
-<!-- Start VideoLightBox.com HEAD section -->
-		<link rel="stylesheet" href="etapas_desp_videolb/videolightbox.css" type="text/css" />
+        <!-- Start VideoLightBox.com HEAD section -->
+        <link rel="stylesheet" href="etapas_desp_videolb/videolightbox.css" type="text/css" />
 
-			<link rel="stylesheet" type="text/css" href="etapas_desp_videolb/overlay-minimal.css"/>
-			<!--script src="etapas_desp_videolb/jquery.js" type="text/javascript"></script-->
-			<script src="etapas_desp_videolb/swfobject.js" type="text/javascript"></script>
-		<!-- End VideoLightBox.com HEAD section -->
+        <link rel="stylesheet" type="text/css" href="etapas_desp_videolb/overlay-minimal.css"/>
+        <!--script src="etapas_desp_videolb/jquery.js" type="text/javascript"></script-->
+        <script src="etapas_desp_videolb/swfobject.js" type="text/javascript"></script>
+        <!-- End VideoLightBox.com HEAD section -->
 
-     <style>
-        #A{
+        <style>
+            #A{
                 z-index: 99;
-
-
-
-
-        }
-        #Cruz{
+            }
+            #Cruz{
                 z-index:100;
-               position: absolute;
-               margin-top: -350px;
+                position: absolute;
+                margin-top: -350px;
                 margin-left: 466px;
+            }
+            #Cruz:hover {
+                opacity: 0.5;
+            }
+            .ActividadesPopUp{
+                margin-left: 375px;
+                margin-top: 16%;
+                position:absolute;
+            }
+            .Actividades{
+                margin-bottom: -70px;
+            }
 
+            .Actividad1{
+                margin-left: 730px;
+                margin-top: 70px;
+            }
 
+            .Actividad2{
+                margin-left: 800px;
+                margin-top: -40px;
+            }
 
-
-        }
-        #Cruz:hover {
-            opacity: 0.5;
-        }
-        .ActividadesPopUp{
-            margin-left: 375px;
-             margin-top: 16%;
-            position:absolute;
-
-
-        }
-         .Actividades{
-            margin-bottom: -70px;
-         }
-
-         .Actividad1{
-            margin-left: 730px;
-            margin-top: 70px;
-
-         }
-
-        .Actividad2{
-
-            margin-left: 800px;
-            margin-top: -40px;
-
-        }
-
-        #libro1{
-            margin-left:20px;
-        }
+            #libro1{
+                margin-left:20px;
+            }
 
         </style>
 
-
     </head>
 
-<body>
+    <body>
 
-
- <div id="cont-header">
-
-        <header id="encabezado">
+        <div id="cont-header">
+            <header id="encabezado">
                 <a href="index.html" ><img id="Logo" src="Header/Logo.png"/> </a>
                 <b id="TextMenu" >MENU</b>
                 <img id="MenuIcon" src="Header/menu_icon.png" />
-
-
-
-
-
-        </header>
-     </div>
-     <div class="ActividadesPopUp" >
+            </header>
+        </div>
+        <div class="ActividadesPopUp" >
             <img id="A" src= "Actividades/pensar_gruposDiscriminados.png" style="display:none;">
 
             <img id="Cruz" src="Actividades/cruz.png" style="display:none;">
 
 
-   </div>
-    <div class="Intro">
-               <img id="imgEtapa" src="Etapa1/Encabezado.png">
-     </div>
-    <div id="container">
-                <div class="IntroT">
-                    <b id="fecha">1920 - 1933</b>
-                    <b id="nombreEtapa">Nazismo y su ideolog&iacute;a</b>
+        </div>
+        <div class="Intro">
+            <img id="imgEtapa" src="Etapa1/Encabezado.png">
+        </div>
+        <div id="container">
+            <div class="IntroT">
+                <b id="fecha">1920 - 1933</b>
+                <b id="nombreEtapa">Nazismo y su ideolog&iacute;a</b>
+            </div>
+
+            <div class="Actividades" >
+
+                <img class="Actividad1" id="pensar1" src="Actividades/Pensar.png">
+                <div class="Actividad2">
+                    <img  id="pelicula1" src="Actividades/cine.png">
+                    <img id="libro1" src="Actividades/libro.png">
                 </div>
-
-         <div class="Actividades" >
-
-           <img class="Actividad1" id="pensar1" src="Actividades/Pensar.png">
-            <div class="Actividad2">
-                <img  id="pelicula1" src="Actividades/cine.png">
-                <img id="libro1" src="Actividades/libro.png">
             </div>
-        </div>
 
-        <div id="Introduccion">
-            <b id="Titulo">GRUPOS DISCRIMINADOS<br></b>
-        </div>
-        <div class="Introduccion2">
-
-
-                    <b id="Texto"> Un objetivo central de la ideolog&iacute;a nazi era lograr una sociedad
-                alemana uniforme  sin otro mensaje que el hitlerista, sin otra ideolog&iacute;a
-                que la nazi y sin otra raza que la aria.Esto implicaba: la matanza de los jud&iacute;os por ser &ldquo;una anti-raza y el mayor enemigo
-                        de Alemania&rdquo; la matanza de enfermos mentales por ser &ldquo;una carga y un peligro para la pureza
-                        racial&rdquo;, la matanza de los gitanos por ser considerados &ldquo;una raza inferior&rdquo;, la matanza de
-                        homosexuales por &ldquo;poner en peligro la natalidad alemana&rdquo;, la matanza de Testigos de Jehov&aacute;
-                        por &ldquo;no reconocer una autoridad superior a la de Dios&rdquo; y la matanza de intelectuales por &ldquo;ser
-                        peligrosos para la mente&rdquo;.</b>
-
-        </div>
-        <div id="Imagenes">
-            <div id="imagenGrande">
-            <img id="imagen1" src="Etapa1/grupos-discriminados/prisioneros.png">
+            <div id="Introduccion">
+                <b id="Titulo">GRUPOS DISCRIMINADOS<br></b>
             </div>
-            <div>
-            <img id="imagen2" src="Etapa1/grupos-discriminados/2.png">
-            <img id="imagen3" src="Etapa1/grupos-discriminados/3.png">
-            <div id="imagenesChicas2">
-                <img id="imagen4" src="Etapa1/grupos-discriminados/chica2.jpg">
-                <img id="imagen5" src="Etapa1/grupos-discriminados/chica3.jpg">
+            <div class="Introduccion2">
+
+
+                <b id="Texto"> Un objetivo central de la ideolog&iacute;a nazi era lograr una sociedad
+                    alemana uniforme  sin otro mensaje que el hitlerista, sin otra ideolog&iacute;a
+                    que la nazi y sin otra raza que la aria.Esto implicaba: la matanza de los jud&iacute;os por ser &ldquo;una anti-raza y el mayor enemigo
+                    de Alemania&rdquo; la matanza de enfermos mentales por ser &ldquo;una carga y un peligro para la pureza
+                    racial&rdquo;, la matanza de los gitanos por ser considerados &ldquo;una raza inferior&rdquo;, la matanza de
+                    homosexuales por &ldquo;poner en peligro la natalidad alemana&rdquo;, la matanza de Testigos de Jehov&aacute;
+                    por &ldquo;no reconocer una autoridad superior a la de Dios&rdquo; y la matanza de intelectuales por &ldquo;ser
+                    peligrosos para la mente&rdquo;.</b>
 
             </div>
+            <div id="Imagenes">
+                <div id="imagenGrande">
+                    <img id="imagen1" src="Etapa1/grupos-discriminados/prisioneros.png">
+                </div>
+                <div>
+                    <img id="imagen2" src="Etapa1/grupos-discriminados/2.png">
+                    <img id="imagen3" src="Etapa1/grupos-discriminados/3.png">
+                    <div id="imagenesChicas2">
+                        <img id="imagen4" src="Etapa1/grupos-discriminados/chica2.jpg">
+                        <img id="imagen5" src="Etapa1/grupos-discriminados/chica3.jpg">
+
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="TextoPrincipal">
-            <b id="Titulo">Personas con capacidades f&iacute;sicas<br> y mentales diferentes</b>
-        </div>
-        <div class="Introduccion2">
-            <b id="Texto">La propaganda nazi persigui&oacute; a enfermos mentales e individuos con capacidades diferentes. Fueron capturados, escondidos y aislados como si fueran miembros de otra especie. Antes de 1937 cerca de 200.000 personas con estas caracter&iacute;sticas fueron esterilizadas. M&eacute;dicos alemanes asesinaron pacientes discapacitados en toda Alemania en una operaci&oacute;n que se llam&oacute; T4 o &ldquo;eutanasia&rdquo;.
-          </b>
-        </div>
-        <div id="ImagenDescr">
-            <img id="imagen6" src="Etapa1/grupos-discriminados/grandes/5.jpg">
-
-        </div>
-        <div class="TextoPrincipal">
-            <b id="Titulo">Homosexuales</b>
-        </div>
-         <div class="Introduccion2">
-            <b id="Texto">Los nazis empezaron a perseguir a los homosexuales inmediatamente
-                        despu&eacute;s de haber accedido al poder, declarando que comet&iacute;an el delito de degeneraci&oacute;n. Los nazis cre&iacute;an que ellos pon&iacute;an en peligro la natalidad alemana y la salud f&iacute;sica y espiritual del pueblo. Los homosexuales fueron internados en campos de concentraci&oacute;n, donde se los obligaba a llevar un tri&aacute;ngulo rosado. Tambi&eacute;n fueron torturados, castrados y v&iacute;ctimas de experimentos. Se estima que entre 5.000 y 15.000 homosexuales fueron asesinados.
-
-           </b>
-        </div>
-
-        <div id="ImagenDescr">
-            <img id="imagen6" src="Etapa1/grupos-discriminados/grandes/2.jpg">
-
-        </div>
-        <div class="TextoPrincipal">
-            <b id="Titulo">Gitanos</b>
-        </div>
-        <div class="Introduccion2">
-            <b id="Texto">Cuando Hitler toma el poder, en Alemania viv&iacute;an alrededor de 30.000 gitanos. Los nazis los declararon como una amenaza de la que hab&iacute;a que defenderse. Primero en Alemania y luego en toda Europa ocupada, los gitanos fueron perseguidos, capturados y asesinados en campos de exterminio. Se estima que m&aacute;s de 250.000 gitanos fueron exterminados por los nazis. Los gitanos llaman al genocidio &ldquo;Porajmos&rdquo; o &ldquo;gran destrucci&oacute;n&rdquo;.
-</b>
-        </div>
-        <div id="ImagenDescr">
-            <img id="imagen6" src="Etapa1/grupos-discriminados/grandes/gitanos.png">
-
-        </div>
-        <div class="TextoPrincipal">
-            <b id="Titulo">Testigos de Jehov&aacute;</b>
-        </div>
-        <div class="Introduccion2">
-            <b id="Texto">Los Testigos de Jehov&aacute; fueron v&iacute;ctimas de una intensa persecuci&oacute;n
-                        bajo el r&eacute;gimen nazi,  ya que se opon&iacute;an a la guerra y a obedecer las reglas de un gobierno autoritario. Por ejemplo, se negaban a realizar el saludo nazi, a formar parte de las organizaciones del partido y a cumplir el servicio militar. Entre los a&ntilde;os 1933 y 1945 los nazis encarcelaron a m&aacute;s de 10.000 Testigos de Jehov&aacute;. Cerca de la mitad de ellos murieron en campos de concentraci&oacute;n.
-
-        </b>
-        </div>
-        <div id="ImagenDescr">
-            <img id="imagen6" src="Etapa1/grupos-discriminados/grandes/testigos_jeova.png">
-
-        </div>
-        <div class="TextoPrincipal">
-            <b id="TituloDescr">Jud&iacute;os</b>
+            <div class="TextoPrincipal">
+                <b id="Titulo">Personas con discapacidades f&iacute;sicas<br> y mentales</b>
             </div>
-        <div class="Introduccion2">
-            <b id="Texto">El Nazismo predicaba que los jud&iacute;os eran los culpables
-                        de todos los males de Alemania.Utilizando una invasiva propaganda
-                         y un gran adoctrinamiento los nazis describ&iacute;an al jud&iacute;o como una &ldquo;anti&#45;raza&rdquo; que estaba contaminando la pureza de la raza aria alemana. El Nazismo propuso entonces purificar a Alemania de los jud&iacute;os y sus influencias.
+            <div class="Introduccion2">
+                <b id="Texto">La propaganda nazi persigui&oacute; a enfermos mentales e individuos con discapacidades. Fueron capturados, escondidos y aislados como si fueran miembros de otra especie. Antes de 1937 cerca de 200.000 personas con estas caracter&iacute;sticas fueron esterilizadas. M&eacute;dicos alemanes asesinaron pacientes discapacitados en toda Alemania en una operaci&oacute;n que se llam&oacute; T4 o &ldquo;eutanasia&rdquo;.
+                </b>
+            </div>
+            <div id="ImagenDescr">
+                <img id="imagen6" src="Etapa1/grupos-discriminados/grandes/5.jpg">
 
-</b>
+            </div>
+            <div class="TextoPrincipal">
+                <b id="Titulo">Homosexuales</b>
+            </div>
+            <div class="Introduccion2">
+                <b id="Texto">Los nazis empezaron a perseguir a los homosexuales inmediatamente
+                    despu&eacute;s de haber accedido al poder, declarando que comet&iacute;an el delito de degeneraci&oacute;n. Los nazis cre&iacute;an que ellos pon&iacute;an en peligro la natalidad alemana y la salud f&iacute;sica y espiritual del pueblo. Los homosexuales fueron internados en campos de concentraci&oacute;n, donde se los obligaba a llevar un tri&aacute;ngulo rosado. Tambi&eacute;n fueron torturados, castrados y v&iacute;ctimas de experimentos. Se estima que entre 5.000 y 15.000 homosexuales fueron asesinados por ese motivo.
+
+                </b>
+            </div>
+
+            <div id="ImagenDescr">
+                <img id="imagen6" src="Etapa1/grupos-discriminados/grandes/2.jpg">
+
+            </div>
+            <div class="TextoPrincipal">
+                <b id="Titulo">Gitanos</b>
+            </div>
+            <div class="Introduccion2">
+                <b id="Texto">Cuando Hitler toma el poder, en Alemania viv&iacute;an alrededor de 30.000 gitanos. Los nazis los declararon como una amenaza de la que hab&iacute;a que defenderse. Primero en Alemania y luego en toda Europa ocupada, los gitanos fueron perseguidos, capturados y asesinados en campos de exterminio. Se estima que m&aacute;s de 250.000 gitanos fueron exterminados por los nazis. Los gitanos llaman al genocidio &ldquo;Porajmos&rdquo; o &ldquo;gran destrucci&oacute;n&rdquo;.
+                </b>
+            </div>
+            <div id="ImagenDescr">
+                <img id="imagen6" src="Etapa1/grupos-discriminados/grandes/gitanos.png">
+
+            </div>
+            <div class="TextoPrincipal">
+                <b id="Titulo">Testigos de Jehov&aacute;</b>
+            </div>
+            <div class="Introduccion2">
+                <b id="Texto">Los Testigos de Jehov&aacute; fueron v&iacute;ctimas de una intensa persecuci&oacute;n
+                    bajo el r&eacute;gimen nazi,  ya que se opon&iacute;an a la guerra y a obedecer las reglas de un gobierno autoritario. Por ejemplo, se negaban a realizar el saludo nazi, a formar parte de las organizaciones del partido y a cumplir el servicio militar. Entre los a&ntilde;os 1933 y 1945 los nazis encarcelaron a m&aacute;s de 10.000 Testigos de Jehov&aacute;. Cerca de la mitad de ellos murieron en campos de concentraci&oacute;n.
+
+                </b>
+            </div>
+            <div id="ImagenDescr">
+                <img id="imagen6" src="Etapa1/grupos-discriminados/grandes/testigos_jeova.png">
+
+            </div>
+            <div class="TextoPrincipal">
+                <b id="TituloDescr">Jud&iacute;os</b>
+            </div>
+            <div class="Introduccion2">
+                <b id="Texto">El Nazismo predicaba que los jud&iacute;os eran los culpables
+                    de todos los males de Alemania. Utilizando una invasiva propaganda
+                    y un gran adoctrinamiento, los nazis describ&iacute;an al jud&iacute;o como una &ldquo;anti&#45;raza&rdquo; que estaba contaminando la pureza de la raza aria alemana. El Nazismo propuso entonces purificar a Alemania de los jud&iacute;os y sus influencias.
+
+                </b>
+            </div>
+            <div id="ImagenDescr">
+                <img id="imagen6" src="Etapa1/grupos-discriminados/grandes/1.jpg">
+
+            </div>
+
+
+            <div id="SigEtapa">
+                <pre id="SiguienteEtapa">
+                <a href="etapadesp_basesideologicas.html">Etapa Anterior</a>  |  <a href="etapadesp_ascensonazismo.html">Siguiente Etapa</a>
+                </pre>
+            </div>
+
         </div>
-        <div id="ImagenDescr">
-            <img id="imagen6" src="Etapa1/grupos-discriminados/grandes/1.jpg">
 
+        <div class="footer">
         </div>
 
+        <nav class="pushy pushy-left">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="actividades.html">Actividades</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="perfil.html">Mi Perfil</a></li>
+            </ul>
 
-    <div id="SigEtapa">
-       <pre id="SiguienteEtapa">  <a href="etapadesp_basesideologicas.html">Etapa Anterior</a>  |  <a href="etapadesp_ascensonazismo.html">Siguiente Etapa</a></pre>
-    </div>
+        </nav>
 
-      </div>
+        <script>
 
-    </div>
-    <div class="footer">
-    </div>
+            $(document).ready(
+                function(){
 
+                    $("#MenuIcon").click(
+                        function(){
 
-<nav class="pushy pushy-left">
-    <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="actividades.html">Actividades</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-            <li><a href="perfil.html">Mi Perfil</a></li>
-    </ul>
+                            $("#menu").animate({width:'toggle'},{speed:"slow"},350);
 
-<nav>
+                        }
+                    );
 
-<script>
+                    $("#img").hover(
+                        function(){
+                            $("#img").attr("src","SegundaPag/img_chica_hover.png");
+                        },
+                        function(){
+                            $("#img").attr("src","SegundaPag/img_chica.png");
+                        }
+                    );
 
-$(document).ready(function(){
+                    $("#pensar1").click(
+                        function(){
 
-$("#MenuIcon").click(function(){
+                            $("#container").css({ opacity: 0.05  });
+                            $("#A").fadeIn("slow");
+                            $("#Cruz").fadeIn();
 
-       $("#menu").animate({width:'toggle'},{speed:"slow"},350);
+                        }
+                    );
+                    $("#pelicula1").click(
+                        function(){
 
+                            $("#container").css({ opacity: 0.05  });
+                            $("#A").fadeIn("slow");
+                            $("#Cruz").fadeIn();
 
-  });
+                        }
+                    );
+                    $("#Cruz").click(
+                        function(){
 
- $("#img").hover(function(){
-    $("#img").attr("src","SegundaPag/img_chica_hover.png");
+                            $("#A").fadeOut("slow");
+                            $("#Cruz").fadeOut();
+                            $("#container").css({ opacity: 1  });
 
-    },
-    function(){
-     $("#img").attr("src","SegundaPag/img_chica.png");
-  });
+                        }
+                    );
+                }
+            );
 
-
-    $("#pensar1").click(function(){
-
-         $("#container").css({ opacity: 0.05  });
-         $("#A").fadeIn("slow");
-         $("#Cruz").fadeIn();
-
-
-
-
-
-  });
-    $("#pelicula1").click(function(){
-
-
-        $("#container").css({ opacity: 0.05  });
-        $("#A").fadeIn("slow");
-        $("#Cruz").fadeIn();
-
-
-
-
-
-  });
-    $("#Cruz").click(function(){
+        </script>
 
 
-         $("#A").fadeOut("slow");
-         $("#Cruz").fadeOut();
-        $("#container").css({ opacity: 1  });
+        <script src="js/pushy.min.js"></script>
 
-
-
-  });
-});
-
-</script>
-
-
- <script src="js/pushy.min.js"></script>
-
-
-
-
-
-
-
-
-
-
-
-</body>
+    </body>
+</html>
